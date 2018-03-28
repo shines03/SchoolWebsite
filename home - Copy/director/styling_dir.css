@@ -1,0 +1,31 @@
+#big_box{
+	margin:2%;
+	padding:2%;
+	border: 2px solid #350322;
+	border-radius:3px;
+	background-color:#fff3dd;
+}
+#jumbo{
+	padding:5%;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size:12px;
+	font-family:tahoma;
+	background-color:#350322;
+	color:white;
+	border-radius:3px;
+}
+#dir_img{
+	height:40%;
+	width:80%;
+	border:1px solid #350322;
+	border-radius:3px;
+}
+#name_box{
+	text-align:left;
+	padding-top:10%;
+	font-family:tahoma;
+	font-size:15px;
+	color:#350322;
+	vertical-align:middle;
+}

@@ -1,0 +1,36 @@
+#main_box{
+	background-color:#fff3dd;
+}
+#blocks{
+	font-family:tahoma;
+	font-size:15px;
+	color:#350322;
+	background-color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:5%;
+	margin:15%;
+	margin-top:10%;
+	text-align:center;
+}
+#blocks:hover{
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 25px 0 rgba(0, 0, 0, 0.21);
+}
+#adm_img{
+	height:40%;
+	width:80%;
+	border:1px solid f9d4e4;
+	border-radius:1px;
+}
+td,th{
+	text-align:center;
+}
+#thead{
+	font-size:22px;
+	font-family:tahoma;
+	color:#350322;
+}
+#tdata{
+	font-size:18px;
+	font-family:tahoma;
+	color:#350322;
+}

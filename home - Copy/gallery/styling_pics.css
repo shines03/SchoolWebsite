@@ -1,0 +1,12 @@
+#pic_blocks{
+	margin-left:10%
+}
+#pic_blocks:hover{
+	box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.6), 0 12px 30px 0 rgba(0, 0, 0, 0.31);
+}
+#heading{
+	font-family:tahoma;
+	color:#350322;
+	font-size:18px;
+	font-weight:bold;
+}
