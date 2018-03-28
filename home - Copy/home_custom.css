@@ -1,0 +1,293 @@
+/* Animation Overloaded*/
+.animated{
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0s;
+}
+
+/* Animation Ends */
+
+/*Right_sidebar_panel*/
+#rsbpList{
+	list-style:none;
+	padding:0px;
+}
+#rspListItem,#rspListItem > a
+{
+	list-style:none;
+	color:black;
+	padding:5px;
+	font-size:16px;
+	margin-bottom:2px;
+	text-decoration:none;
+	font-family:tahoma;
+}
+#rspListItem:hover{
+	text-decoration:node;
+	color:#700849;
+}
+
+#rspListHeading
+{
+	background-color:#700849;
+	color:white;
+	font-size:18px;
+	padding:7px;
+	font-family:tahoma;
+}
+
+.fa{
+  margin-right: 25px;
+  width:40px;
+  padding:5px;
+  text-shadow: 1px 1px 1px #5e4236;
+  font-size: 20px;
+}
+
+/*Right_sidebar_panel ends here*/
+
+/* styling of panel starts here */
+
+#mainPanelBody{
+	border:1px solid #700849;
+	padding:0px;
+	margin:0px;
+	background-color:white;
+}
+.panel-heading{
+	background-color:#700849;
+	color:white;
+	font-size:18px;
+	text-align:center;
+	padding:10px;
+	border-radius:0px;
+	font-family:tahoma;
+}
+.nav-justified > li > a{
+	border-bottom:1px #0864B3 solid;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+	background-color:#0864B3;
+	height:relative;
+}
+.nav-pills>li>a:hover{
+	background-color:#063156;
+	color:white;
+}
+.nav-pills>li>a{
+	background-color:#a6d4fc;
+	font-size:16px;
+	font-family:tahoma;
+	border-radius:0px;
+	margin-left:1px;
+}
+.tab-pane{
+	max-height:325px;
+	overflow: auto;
+}
+#panel-elements>a{
+	color:black;
+	padding-top:20px;
+	font-size:15px;
+	font-family:tahoma;
+}
+#panel-elements>a:hover{
+	color:#700849;
+	text-decoration:none;
+	opacity:0.9;
+	cursor:pointer;
+}
+/*styling of panel ends here */
+
+
+/*styling of Notice board (sidebar.php) starts here */
+
+#noticeBoardHeading{
+	background-color:#700849;
+	color:white;
+	font-size:18px;
+	padding:10px;
+	font-family:tahoma;
+	text-align:center;
+}
+
+#noticeBoardBody{
+	color:black;
+	border:1px #700849 solid;
+	font-family:tahoma;
+	text-align:center;
+	max-height:430px;
+	overflow:auto;
+	background-color:white;
+	padding-left:10px;
+}
+#NoticeBoard > a{
+	float:right;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#NoticeBoard>img {
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+/*styling of Notice board (sidebar.php) ends here */
+
+
+/*styling of Footer starts here */
+
+#footer{
+	background-color:#3a3a3a;
+}
+#fl{
+	font-size:15px;
+	color:white;
+	float:left;
+}
+#flf{
+	font-size:25px;
+	padding:8px;
+	background-color:#1d50a3;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+}
+#flyt{
+	font-size:25px;
+	padding:8px;
+	background-color:#db0202;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+}
+#flg{
+	font-size:25px;
+	padding:8px;
+	background-color:#840000;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+}
+#flt{
+	font-size:25px;
+	padding:8px;
+	background-color:#01bdc6;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+}
+#flya{
+	font-size:25px;
+	padding:8px;
+	background-color:#bb28ff;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+}
+#fll{
+	font-size:25px;
+	padding:8px;
+	background-color:#28a5ff;
+	color:white;
+	text-align:center;
+	border-radius:2px;
+}
+.foot_elements
+{
+	padding:20px;
+	padding-left:0px;
+	font-size:25px;
+	color:white;
+}
+#ufoot_links{
+	list-style:none;
+}
+#ufoot_links>li{
+	padding-bottom:10px;
+}
+#ufoot_links>li>a:hover{
+	cursor:pointer;
+	opacity:0.7;
+}
+#ufoot_menu{
+	list-style:none;
+}
+#ufoot_menu>li{
+	padding:8px;
+}
+#ufoot_menu>li>a{
+	color:white;
+}
+#ufoot_menu>li>a:hover{
+	text-decoration:none;
+	opacity:0.8;
+	color:gray;
+	cursor:pointer;
+}
+/*styling of Footer ends here */
+
+
+/*styling of navbar starts here */
+
+#nav_bar , #mainNavbar{
+	border:0px;
+	font-family: tahoma;
+    font-size: 13px;
+    color: white;
+    background-color: #700849;
+	text-shadow: none;
+}
+
+#mainNavbar{
+	padding-left:14%;
+}
+#mainNavbar>.navbar-nav>li>a {
+    color: white;
+	width:150px;
+}
+#mainNavbar>.navbar-nav>li>a:hover {
+	color: #C0C0C0;
+    opacity: 0.9;
+	text-shadow: none;
+}
+#mainNavbar>.navbar-nav>li>a:focus {
+	color: white;
+    background-color: #700849;
+	text-shadow: none;
+}
+/*styling of navbar ends here */
+
+/*styling of vichar starts here */
+
+#vichar{
+	background: -webkit-radial-gradient(10% 30%, #76f291, #4ce86e);
+	border-radius:3px;
+	margin:10px;
+}
+.vic_head
+{
+	font-size:30px;
+	font-family:tahoma;
+	color:#700849;
+	padding:15px;
+	text-align:center;
+	
+}
+.vic_body{
+	font-size:23px;
+	font-family:tahoma;
+	color:#541b03;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+/*styling of vichar ends here */
