@@ -1,0 +1,26 @@
+#login-form{
+	position:relative;
+	padding:45px;
+	color:white;
+	-webkit-border-radius:8px;
+	background-color:#700849;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.28), 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+#main_body{
+	background-color:#350322;
+	color:white;
+}
+#logout
+{
+	float:right;
+	margin-right:5%;
+	margin-right:2%;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:5px;
+	padding-top:5px;
+	color:white;
+	background-color:#700849;
+	-webkit-border-radius:4px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.28), 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
